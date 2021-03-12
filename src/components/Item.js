@@ -42,11 +42,17 @@ function Item({ id, text, current }) {
       id,
     });
   };
+  const onRemove = () => {
+    dispatch({
+      type: "REMOVE",
+      id,
+    });
+  };
 
   return (
     <MemoItemBlock current={current} onClick={onToggle}>
       <Text id={id}>{text}</Text>
-      <Remove>
+      <Remove onClick={onRemove}>
         <MdDelete />
       </Remove>
     </MemoItemBlock>
