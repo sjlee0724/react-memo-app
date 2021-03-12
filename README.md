@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 메모 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+토이프로젝트로 만들어본 메모 앱입니다.
 
-## Available Scripts
+## 설치(Installation) 및 사용 방법(How to use)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+### 설치 방법(How to install)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install
+or
+yarn install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+npm start
+or
+yarn start
+```
 
-### `yarn test`
+### 사용 방법(How to use)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+새로운 메모를 작성하고 싶다면 new memo 버튼을 클릭하면 사용할 수 있습니다. <br>
+수정하고 싶은 메모가 있다면 클릭 후 수정한 다음 Save 버튼을 누르면 됩니다.<br>
 
-### `yarn build`
+## 메인 화면
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1125" alt="스크린샷 2021-03-12 오후 2 45 01" src="https://user-images.githubusercontent.com/25473208/110897961-be139780-8341-11eb-9b24-d2feea0ad0bc.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 새 포스트 추가 등록 후 화면
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1127" alt="스크린샷 2021-03-12 오후 2 45 10" src="https://user-images.githubusercontent.com/25473208/110897987-c966c300-8341-11eb-9176-1cef64aca770.png">
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Brower Support
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| last versions                                                                                                                                                                                                 | last versions                                                                                                                                                                                                 |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+사파리에서는 문제 없이 사용이 가능하나 약간의 레이아웃 틀어짐 이슈가 있습니다. 가급적이면 크롬을 이용해 주세요.
