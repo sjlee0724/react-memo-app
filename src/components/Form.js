@@ -36,6 +36,7 @@ const DescriptionInput = styled.textarea`
   box-sizing: border-box;
   margin-bottom: 2px;
   height: 610px;
+  resize: none;
 `;
 
 const ButtonBlock = styled.div`
